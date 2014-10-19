@@ -5,3 +5,7 @@ jdk:
   
 notifications:
   email: false
+  
+before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get install gradle
